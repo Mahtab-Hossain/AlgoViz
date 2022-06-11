@@ -6,7 +6,7 @@
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: rgb(198, 198, 113);
 
 }
 .list{
@@ -16,5 +16,20 @@ footer {
     background-color: rgb(198, 198, 113);
     padding: 10px;
     text-align: center;
-    color: rgb(110, 0, 0);
+    color: rgb(154, 96, 96);
+}
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+}
+canvas{
+    padding-left: auto;
+    padding-right: auto;
+    margin: auto;
+    width: auto;
+    display: block;
+    position: relative;
+
 }
