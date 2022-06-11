@@ -1,11 +1,20 @@
-body{
-    color: rgb(32, 206, 206);
-    background-color: brown;
+*{
+    box-sizing: border-box;
 }
-.hr{
-    background-color: brown;
+.hr1{
+    background-color: rgb(154, 96, 96);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
 
 }
 .list{
-    color: crimson;
+    color: rgb(112, 20, 39);
+}
+footer {
+    background-color: rgb(198, 198, 113);
+    padding: 10px;
+    text-align: center;
+    color: rgb(110, 0, 0);
 }
