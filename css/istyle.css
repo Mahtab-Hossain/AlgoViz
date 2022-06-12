@@ -31,9 +31,18 @@ canvas{
     width: auto;
     display: block;
     position: relative;
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(77, 18, 35, 0.686);
     z-index: -1;
-
-
-
+}
+h2{
+    position:relative;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    background-color: rgb(11, 23, 23);
+    padding-left: 285px;
+    padding-right: 280px;
+    color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
