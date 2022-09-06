@@ -21,17 +21,25 @@ footer {
 @media (max-width: 600px) {
     nav, article {
       width: 100%;
-      height: auto;
+      height: 100px;
     }
+}
+@media (max-width: 1200px){
+    canvas{
+        width: fit-content;
+        height: auto;
+    }
+
+    
 }
 canvas{
     padding-left: auto;
     padding-right: auto;
     margin: auto;
     width: auto;
-    display: block;
+    display:grid;
     position: relative;
-    background-color: rgba(77, 18, 35, 0.686);
+    background-color: rgba(182, 26, 70, 0.686);
     z-index: -1;
 }
 h2{
@@ -42,7 +50,7 @@ h2{
     background-color: rgb(11, 23, 23);
     padding-left: 285px;
     padding-right: 280px;
-    color: antiquewhite;
+    color: rgb(167, 109, 35);
     padding-top: 10px;
     padding-bottom: 10px;
 }
